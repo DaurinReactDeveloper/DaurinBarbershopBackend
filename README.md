@@ -23,7 +23,6 @@
 <ul>
     <li>🖥 ASP.NET Core con .NET 6</li>
     <li>💾 MySQL para almacenamiento de datos</li>
-    <li>☁️ Firebase para almacenamiento de imágenes y datos multimedia</li>
     <li>🔑 JSON Web Tokens (JWT) para autenticación</li>
     <li>📧 Servicio de notificaciones por correo electrónico (SMTP)</li>
 </ul>
