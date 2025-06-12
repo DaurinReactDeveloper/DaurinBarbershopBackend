@@ -1,0 +1,2058 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "GestorBarberia.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Administrador/GetAdministradores": {
+      "get": {
+        "tags": [
+          "Administrador"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Administrador/GetAdministradorBarberia/{name}/{password}": {
+      "get": {
+        "tags": [
+          "Administrador"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "name",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "password",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Administrador/GetAdministradorApp/{name}/{password}": {
+      "get": {
+        "tags": [
+          "Administrador"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "name",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "password",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Administrador/GetAdministradorById/{id}": {
+      "get": {
+        "tags": [
+          "Administrador"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Administrador/Save": {
+      "post": {
+        "tags": [
+          "Administrador"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/AdminAddDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Administrador/Update": {
+      "put": {
+        "tags": [
+          "Administrador"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/AdminUpdateDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Administrador/Delete": {
+      "delete": {
+        "tags": [
+          "Administrador"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/AdminRemoveDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barberia/GetBarberias": {
+      "get": {
+        "tags": [
+          "Barberia"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barberia/Save": {
+      "post": {
+        "tags": [
+          "Barberia"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/BarberiaAddDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barberia/Update": {
+      "put": {
+        "tags": [
+          "Barberia"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/BarberiaUpdateDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barberia/Delete": {
+      "delete": {
+        "tags": [
+          "Barberia"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/BarberiaRemoveDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barbero/GetBarbero/{name}/{password}": {
+      "get": {
+        "tags": [
+          "Barbero"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "name",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "password",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barbero/GetBarberos": {
+      "get": {
+        "tags": [
+          "Barbero"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barbero/BarberosByBarberiaId/{id}": {
+      "get": {
+        "tags": [
+          "Barbero"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barbero/BarberosByClienteBarberiaId/{id}": {
+      "get": {
+        "tags": [
+          "Barbero"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barbero/BarberoById/{id}": {
+      "get": {
+        "tags": [
+          "Barbero"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barbero/Save": {
+      "post": {
+        "tags": [
+          "Barbero"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/BarberoAddDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barbero/Update": {
+      "put": {
+        "tags": [
+          "Barbero"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/BarberoUpdateDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barbero/Delete": {
+      "delete": {
+        "tags": [
+          "Barbero"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/BarberoRemoveDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Barbero/DeleteByAdmin/{barberoId}/{adminId}": {
+      "delete": {
+        "tags": [
+          "Barbero"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "barberoId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "path",
+            "name": "adminId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cita/GetCitasById/{clienteId}": {
+      "get": {
+        "tags": [
+          "Cita"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "clienteId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cita/GetCitasByCliente/{clienteId}": {
+      "get": {
+        "tags": [
+          "Cita"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "clienteId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cita/GetCitasByBarbero/{barberoId}": {
+      "get": {
+        "tags": [
+          "Cita"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "barberoId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cita/Save": {
+      "post": {
+        "tags": [
+          "Cita"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CitaAddDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cita/Update": {
+      "put": {
+        "tags": [
+          "Cita"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CitaUpdateDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cita/UpdateEstado": {
+      "put": {
+        "tags": [
+          "Cita"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CitaUpdateDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cita/Delete": {
+      "delete": {
+        "tags": [
+          "Cita"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CitaRemoveDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cliente/GetCliente/{name}/{password}": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "name",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "path",
+            "name": "password",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cliente/GetClientes": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cliente/ClienteById/{id}": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cliente/ClienteByBarberiaId/{id}": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cliente/Save": {
+      "post": {
+        "tags": [
+          "Cliente"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ClienteAddDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cliente/Update": {
+      "put": {
+        "tags": [
+          "Cliente"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ClienteUpdateDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cliente/Delete": {
+      "delete": {
+        "tags": [
+          "Cliente"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ClienteRemoveDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cliente/DeleteByAdmin/{clienteId}/{adminId}": {
+      "delete": {
+        "tags": [
+          "Cliente"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "clienteId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "path",
+            "name": "adminId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Comentario/GetComentarios": {
+      "get": {
+        "tags": [
+          "Comentario"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Comentario/GetComentariosBarbero/{BarberoId}": {
+      "get": {
+        "tags": [
+          "Comentario"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "BarberoId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Comentario/GetComentariosCliente/{ClienteId}": {
+      "get": {
+        "tags": [
+          "Comentario"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "ClienteId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Comentario/Save": {
+      "post": {
+        "tags": [
+          "Comentario"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ComentarioaddDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Comentario/Update": {
+      "put": {
+        "tags": [
+          "Comentario"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ComentarioUpdateDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Comentario/Delete": {
+      "delete": {
+        "tags": [
+          "Comentario"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/ComentarioRemoveDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Estilosdecorte/GetEstilos": {
+      "get": {
+        "tags": [
+          "Estilosdecorte"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Estilosdecorte/Estilos/{id}": {
+      "get": {
+        "tags": [
+          "Estilosdecorte"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Estilosdecorte/EstilosByBarberiaId/{id}": {
+      "get": {
+        "tags": [
+          "Estilosdecorte"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Estilosdecorte/EstilosByClienteBarberiaId/{id}": {
+      "get": {
+        "tags": [
+          "Estilosdecorte"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Estilosdecorte/Save": {
+      "post": {
+        "tags": [
+          "Estilosdecorte"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/EstilosdecorteAddDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Estilosdecorte/Update": {
+      "put": {
+        "tags": [
+          "Estilosdecorte"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/EstilosdecorteUpdateDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Estilosdecorte/Delete": {
+      "delete": {
+        "tags": [
+          "Estilosdecorte"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/EstilosdecorteRemoveDto"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Estilosdecorte/DeleteByAdmin/{estilioId}/{adminId}": {
+      "delete": {
+        "tags": [
+          "Estilosdecorte"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "estilioId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "path",
+            "name": "adminId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Reportes/GetReportes/{barberiaId}/{fechaInicio}/{fechaFin}": {
+      "get": {
+        "tags": [
+          "Reportes"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "barberiaId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "path",
+            "name": "fechaInicio",
+            "required": true,
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "in": "path",
+            "name": "fechaFin",
+            "required": true,
+            "type": "string",
+            "format": "date-time"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Reportes/GetIngresos/{barberiaId}": {
+      "get": {
+        "tags": [
+          "Reportes"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "barberiaId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Reportes/GetTotalClientes/{barberiaId}": {
+      "get": {
+        "tags": [
+          "Reportes"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "barberiaId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Reportes/GetTotalBarberos/{barberiaId}": {
+      "get": {
+        "tags": [
+          "Reportes"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "barberiaId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "AdminAddDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "administradoresId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "tipo": {
+          "type": "string"
+        }
+      }
+    },
+    "AdminRemoveDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "administradoresId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "tipo": {
+          "type": "string"
+        }
+      }
+    },
+    "AdminUpdateDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "administradoresId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "tipo": {
+          "type": "string"
+        }
+      }
+    },
+    "BarberiaAddDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiasId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombreBarberia": {
+          "type": "string"
+        },
+        "admin": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombreAdministrador": {
+          "type": "string"
+        }
+      }
+    },
+    "BarberiaRemoveDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiasId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombreBarberia": {
+          "type": "string"
+        },
+        "admin": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombreAdministrador": {
+          "type": "string"
+        }
+      }
+    },
+    "BarberiaUpdateDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiasId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombreBarberia": {
+          "type": "string"
+        },
+        "admin": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombreAdministrador": {
+          "type": "string"
+        }
+      }
+    },
+    "BarberoAddDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberoId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "imgbarbero": {
+          "type": "string"
+        }
+      }
+    },
+    "BarberoRemoveDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberoId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "imgbarbero": {
+          "type": "string"
+        }
+      }
+    },
+    "BarberoUpdateDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberoId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "imgbarbero": {
+          "type": "string"
+        }
+      }
+    },
+    "CitaAddDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "citaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "fecha": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "hora": {
+          "$ref": "#/definitions/TimeSpan"
+        },
+        "barberoId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "clienteId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "estiloId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "estado": {
+          "type": "string"
+        }
+      }
+    },
+    "CitaRemoveDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "citaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "fecha": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "hora": {
+          "$ref": "#/definitions/TimeSpan"
+        },
+        "barberoId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "clienteId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "estiloId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "estado": {
+          "type": "string"
+        }
+      }
+    },
+    "CitaUpdateDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "citaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "fecha": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "hora": {
+          "$ref": "#/definitions/TimeSpan"
+        },
+        "barberoId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "clienteId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "estiloId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "estado": {
+          "type": "string"
+        }
+      }
+    },
+    "ClienteAddDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "clienteId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "imgcliente": {
+          "type": "string"
+        }
+      }
+    },
+    "ClienteRemoveDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "clienteId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "imgcliente": {
+          "type": "string"
+        }
+      }
+    },
+    "ClienteUpdateDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "clienteId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "telefono": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "imgcliente": {
+          "type": "string"
+        }
+      }
+    },
+    "ComentarioRemoveDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idComentarios": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idCita": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idCliente": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idCorte": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idBarbero": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "calificacion": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "comentario": {
+          "type": "string"
+        }
+      }
+    },
+    "ComentarioUpdateDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idComentarios": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idCita": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idCliente": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idCorte": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idBarbero": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "calificacion": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "comentario": {
+          "type": "string"
+        }
+      }
+    },
+    "ComentarioaddDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idComentarios": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idCita": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idCliente": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idCorte": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "idBarbero": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "calificacion": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "comentario": {
+          "type": "string"
+        }
+      }
+    },
+    "EstilosdecorteAddDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "estiloId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "precio": {
+          "format": "double",
+          "type": "number"
+        },
+        "imgestilo": {
+          "type": "string"
+        }
+      }
+    },
+    "EstilosdecorteRemoveDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "estiloId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "precio": {
+          "format": "double",
+          "type": "number"
+        },
+        "imgestilo": {
+          "type": "string"
+        }
+      }
+    },
+    "EstilosdecorteUpdateDto": {
+      "type": "object",
+      "properties": {
+        "changeDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "changeUser": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "estiloId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "barberiaId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "precio": {
+          "format": "double",
+          "type": "number"
+        },
+        "imgestilo": {
+          "type": "string"
+        }
+      }
+    },
+    "TimeSpan": {
+      "type": "object",
+      "properties": {
+        "ticks": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "days": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "hours": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "milliseconds": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "microseconds": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "nanoseconds": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "minutes": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "seconds": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "totalDays": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalHours": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalMilliseconds": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalMicroseconds": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalNanoseconds": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalMinutes": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        },
+        "totalSeconds": {
+          "format": "double",
+          "type": "number",
+          "readOnly": true
+        }
+      }
+    }
+  }
+}

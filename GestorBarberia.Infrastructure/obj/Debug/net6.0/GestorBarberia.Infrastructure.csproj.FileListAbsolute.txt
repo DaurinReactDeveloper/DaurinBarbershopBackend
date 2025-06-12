@@ -1,0 +1,47 @@
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Infrastructure.deps.json
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Infrastructure.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Infrastructure.pdb
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Domain.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Domain.pdb
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.csproj.AssemblyReference.cache
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.AssemblyInfoInputs.cache
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.AssemblyInfo.cs
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.sourcelink.json
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBa.C5C9F2D9.Up2Date
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\refint\GestorBarberia.Infrastructure.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.pdb
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\ref\GestorBarberia.Infrastructure.dll
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Infrastructure.deps.json
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Infrastructure.dll
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Infrastructure.pdb
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Domain.dll
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Domain.pdb
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.csproj.AssemblyReference.cache
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.AssemblyInfoInputs.cache
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.AssemblyInfo.cs
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.sourcelink.json
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBa.C5C9F2D9.Up2Date
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.dll
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\refint\GestorBarberia.Infrastructure.dll
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.pdb
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\ref\GestorBarberia.Infrastructure.dll
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Infrastructure.deps.json
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Infrastructure.dll
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Infrastructure.pdb
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Domain.dll
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\bin\Debug\net6.0\GestorBarberia.Domain.pdb
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.csproj.AssemblyReference.cache
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.AssemblyInfoInputs.cache
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.AssemblyInfo.cs
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBa.C5C9F2D9.Up2Date
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.dll
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\refint\GestorBarberia.Infrastructure.dll
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\GestorBarberia.Infrastructure.pdb
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Infrastructure\obj\Debug\net6.0\ref\GestorBarberia.Infrastructure.dll

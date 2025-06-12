@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cita Programada</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #1B1B1B;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 70%;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+            line-height: 1.6;
+        }
+
+        .header {
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+        }
+
+            .header img {
+                max-width: 120px;
+                margin: 0 auto 10px;
+                display: block;
+            }
+
+            .header h1 {
+                font-size: 24px;
+                margin: 0;
+            }
+
+        .content {
+            padding: 20px;
+            font-size: 16px;
+            color: #333333;
+        }
+
+            .content p {
+                margin-bottom: 20px;
+            }
+
+            .content strong {
+                color: #263238;
+            }
+
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            color: #ffffff;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+            transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+            text-decoration: none;
+        }
+
+            .button:hover {
+                box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+            }
+
+        .footer {
+            text-align: center;
+            font-size: 13px;
+            color: #666666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #dddddd;
+        }
+
+            .footer p {
+                margin: 5px 0;
+            }
+
+        a.button {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .Rechazada .header {
+            background-color: #C44949; 
+        }
+
+        .Rechazada .button {
+            background-color: #C44949; 
+        }
+
+        .Cancelada .header {
+            background-color: #C44949; 
+        }
+
+        .Cancelada .button {
+            background-color: #C44949; 
+        }
+
+        .Aceptada .header {
+            background-color: #045525; 
+        }
+
+        .Aceptada .button {
+            background-color: #045525; 
+        }
+
+        .estado-mayuscula {
+            text-transform: uppercase;
+        }
+
+        .motivos {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+            .motivos p {
+                margin: 0;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container {{ Estado }}">
+        <div class="header">
+            <img src="https://i.imgur.com/9xf4pd5.png" alt="Logo">
+            <h1>Confirmación de Cita</h1>
+        </div>
+        <div class="content">
+
+            {{if Estado == "Cancelada"}}
+            <p>Estimado/a <strong>{{ NombreBarbero }}</strong>,</p>
+            <p>Le informamos que el cliente <strong> {{NombreCliente}} </strong> ha <strong class="estado-mayuscula">{{ Estado }}</strong> su cita que estaba propuesta para el <strong>{{ FechaCita }}</strong> a las <strong>{{ HoraCita }}</strong>.</p>
+            {{else }}
+            <p>Estimado/a <strong>{{ NombreCliente }}</strong>,</p>
+            <p>Le informamos que su cita ha sido <strong class="estado-mayuscula">{{ Estado }}</strong> para el <strong>{{ FechaCita }}</strong> a las <strong>{{ HoraCita }}</strong>.</p>
+            {{end}}
+
+
+            <!-- Motivos de rechazo -->
+            {{ if Estado == "Rechazada" }}
+            <div class="motivos">
+                <p>Lamentamos informarle que su cita no pudo ser aceptada por los siguientes motivos:</p>
+                <ul>
+                    <li>El barbero no se encuentra disponible en el horario solicitado.</li>
+                    <li>El barbero tiene otro cliente agendado para esa hora. Le sugerimos reprogramar su cita 35 minutos más adelante.</li>
+                    <li>Si el barbero rechaza nuevamente la cita, le recomendamos probar con otro día.</li>
+                </ul>
+            </div>
+            {{ end }}
+
+            <p>Si necesita realizar alguna modificación o desea obtener más información, no dude en contactarnos.</p>
+            <p>Para más detalles, haga clic en el botón a continuación:</p>
+            <a href="https://daurinbarbershop.netlify.app" class="button" target="_blank">Ver Detalles</a>
+        </div>
+        <div class="footer">
+            <p>Gracias por confiar en nosotros.</p>
+            <p>Si tiene alguna pregunta, no dude en contactarnos:</p>
+            <p>Email: dauringonzales7@gmail.com</p>
+            <p>Teléfono: 809-918-7905</p>
+        </div>
+    </div>
+</body>
+</html>

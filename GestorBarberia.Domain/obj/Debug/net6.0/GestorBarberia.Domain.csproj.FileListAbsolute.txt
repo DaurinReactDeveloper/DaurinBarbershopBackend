@@ -1,0 +1,35 @@
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Debug\net6.0\GestorBarberia.Domain.deps.json
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Debug\net6.0\GestorBarberia.Domain.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Debug\net6.0\GestorBarberia.Domain.pdb
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.AssemblyInfoInputs.cache
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.AssemblyInfo.cs
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.csproj.CoreCompileInputs.cache
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.sourcelink.json
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\refint\GestorBarberia.Domain.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.pdb
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\ref\GestorBarberia.Domain.dll
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Debug\net6.0\GestorBarberia.Domain.deps.json
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Debug\net6.0\GestorBarberia.Domain.dll
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Debug\net6.0\GestorBarberia.Domain.pdb
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.AssemblyInfoInputs.cache
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.AssemblyInfo.cs
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.csproj.CoreCompileInputs.cache
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.sourcelink.json
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.dll
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\refint\GestorBarberia.Domain.dll
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.pdb
+D:\Estudios\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\ref\GestorBarberia.Domain.dll
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Debug\net6.0\GestorBarberia.Domain.deps.json
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Debug\net6.0\GestorBarberia.Domain.dll
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Debug\net6.0\GestorBarberia.Domain.pdb
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.AssemblyInfoInputs.cache
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.AssemblyInfo.cs
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.csproj.CoreCompileInputs.cache
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.dll
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\refint\GestorBarberia.Domain.dll
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\GestorBarberia.Domain.pdb
+D:\Mis Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Debug\net6.0\ref\GestorBarberia.Domain.dll

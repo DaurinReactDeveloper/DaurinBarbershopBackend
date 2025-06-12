@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Daurin Barber Shop</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #1B1B1B;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 70%;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        .header {
+            background-color: #263238;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+        }
+
+            .header img {
+                max-width: 120px;
+                margin: 0 auto 10px;
+                display: block;
+            }
+
+            .header h1 {
+                font-size: 24px;
+                margin: 0;
+            }
+
+        .content {
+            padding: 20px;
+            font-size: 16px;
+            color: #333333;
+        }
+
+            .content p {
+                margin-bottom: 20px;
+            }
+
+            .content strong {
+                color: #263238;
+            }
+
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            color: #ffffff;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            background-color: #1B1B1B;
+        }
+
+            .button:hover {
+                box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            }
+
+        .footer {
+            text-align: center;
+            font-size: 13px;
+            color: #666666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #dddddd;
+        }
+
+            .footer p {
+                margin: 5px 0;
+            }
+
+        a.button {
+            text-decoration: none;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://i.imgur.com/9xf4pd5.png" alt="Logo DaurinBarberShop">
+            <h1>Bienvenido, Administrador de {{ NombreBarberia }}</h1>
+        </div>
+        <div class="content">
+            <p>Hola <strong>{{ NombreAdminSucursal }}</strong>,</p>
+
+            <p>Nos complace darte la bienvenida como administrador de <strong>{{ NombreBarberia }}</strong>, una de las sucursales de <strong>DaurinBarberShop</strong>. Como administrador, tendrás acceso exclusivo para gestionar las operaciones de tu barbería y ofrecer una experiencia de calidad a tus clientes.</p>
+
+            <p>Con tu cuenta, podrás realizar las siguientes acciones:</p>
+
+            <ul>
+                <li><strong>Agregar barberos:</strong> Podrás añadir barberos a tu barbería, gestionando su información y disponibilidad.</li>
+                <li><strong>Agregar estilos de corte:</strong> Añade y personaliza los estilos de corte que ofreces en tu sucursal.</li>
+                <li><strong>Listar barberos:</strong> Visualiza la lista de tus barberos, accede a su información detallada, comentarios y datos personales.</li>
+                <li><strong>Listar clientes:</strong> Consulta la lista de clientes que han reservado servicios en tu barbería.</li>
+                <li><strong>Listar cortes:</strong> Revisa y administra el catálogo de estilos de corte disponibles en tu sucursal.</li>
+            </ul>
+
+            <p>Estos son tus datos de acceso iniciales:</p>
+            <p><strong>Usuario:</strong> {{ NombreAdminSucursal }}</p>
+            <p><strong>Por razones de seguridad, su contraseña será enviada a través de un mensaje de WhatsApp.</strong> </p>
+
+            <p>Puedes comenzar a gestionar tu sucursal desde el siguiente enlace:</p>
+            <a href="https://daurinbarbershop.netlify.app/iniciarsesiongeneral/administrador" class="button" target="_blank">Iniciar Sesión</a>
+        </div>
+        <div class="footer">
+            <p>Gracias por formar parte de DaurinBarberShop. Estamos seguros de que, bajo tu administración, <strong>{{ NombreBarberia }}</strong> brindará un servicio excepcional a nuestros clientes.</p>
+            <p>Si tienes alguna pregunta o necesitas asistencia, no dudes en comunicarte con nuestro equipo de soporte.</p>
+            <p>Email: dauringonzales6@gmail.com</p>
+            <p>Teléfono: 809-918-7905</p>
+        </div>
+    </div>
+</body>
+</html>

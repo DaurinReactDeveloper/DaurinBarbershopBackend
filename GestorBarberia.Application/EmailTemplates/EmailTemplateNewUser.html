@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Daurin Barber Shop</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #1B1B1B;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 70%;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        .header {
+            background-color: #045525; 
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+        }
+
+            .header img {
+                max-width: 120px;
+                margin: 0 auto 10px;
+                display: block;
+            }
+
+            .header h1 {
+                font-size: 24px;
+                margin: 0;
+            }
+
+        .content {
+            padding: 20px;
+            font-size: 16px;
+            color: #333333;
+        }
+
+            .content p {
+                margin-bottom: 20px;
+            }
+
+            .content strong {
+                color: #263238;
+            }
+
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            color: #ffffff;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+            transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+            text-decoration: none;
+            background-color: #045525; 
+        }
+
+            .button:hover {
+                box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+            }
+
+        .footer {
+            text-align: center;
+            font-size: 13px;
+            color: #666666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #dddddd;
+        }
+
+            .footer p {
+                margin: 5px 0;
+            }
+
+        a.button {
+            text-decoration: none;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://i.imgur.com/9xf4pd5.png" alt="Logo DaurinBarberShop">
+            <h1>Bienvenido a DaurinBarberShop</h1>
+        </div>
+        <div class="content">
+            <p>Estimado/a <strong>{{ NombreCliente }}</strong>,</p>
+
+            <p>Nos complace darle la bienvenida a nuestra comunidad de DaurinBarberShop. Su cuenta ha sido creada con exito y a continuacion le proporcionamos sus credenciales de acceso:</p>
+
+            <p><strong>Nombre de usuario:</strong> {{ NombreCliente }}</p>
+            <p><strong>Password:</strong> {{ Password }}</p>
+
+            <p>Para acceder a su cuenta y comenzar a disfrutar de nuestros servicios, haga clic en el boton a continuacion:</p>
+
+            <a href="https://daurinbarbershop.netlify.app/iniciarsesiongeneral/cliente" class="button" target="_blank">Iniciar Sesion</a>
+        </div>
+        <div class="footer">
+            <p>Gracias por confiar en nosotros.</p>
+            <p>Si tiene alguna pregunta, no dude en contactarnos:</p>
+            <p>Email: dauringonzales7@gmail.com</p>
+            <p>Teléfono: 809-918-7905</p>
+        </div>
+    </div>
+</body>
+</html>

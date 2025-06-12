@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petición de Nueva Cita</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #1B1B1B;
+            margin: 0;
+            padding: 0;
+            background-color: #D9D9D9;
+        }
+
+        .container {
+            width: 70%;
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #FFFFFF;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #1B1B1B;
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+        }
+
+            .header img {
+                max-width: 120px;
+                margin: 0 auto 10px;
+                display: block;
+            }
+
+            .header h1 {
+                font-size: 24px;
+                margin: 0;
+            }
+
+        .content {
+            padding: 20px;
+            font-size: 16px;
+            color: #1B1B1B;
+        }
+
+            .content p {
+                margin-bottom: 20px;
+            }
+
+            .content strong {
+                color: #1B1B1B;
+            }
+
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #1B1B1B;
+            color: #FFFFFF;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+        }
+
+        a.button{
+            color: white;
+        }
+
+            .button:hover {
+                background-color: #333333;
+                box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            }
+
+        .footer {
+            text-align: center;
+            font-size: 13px;
+            color: #1B1B1B;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #D9D9D9;
+        }
+
+            .footer p {
+                margin: 5px 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://i.imgur.com/9xf4pd5.png" alt="Logo">
+            <h1>Petición de Nueva Cita</h1>
+        </div>
+        <div class="content">
+            <p>Estimado/a <strong>{{ NombreBarbero }}</strong>,</p>
+            <p>Le informamos que se ha recibido una nueva petición de cita por parte del cliente <strong>{{ NombreCliente }}</strong>.</p>
+            <p>La cita está programada para el día <strong>{{ FechaCita }}</strong> a las <strong>{{ HoraCita }}</strong>.</p>
+            <p>Por favor, revise los detalles de la cita y responda si acepta o rechaza la solicitud.</p>
+            <p>Para más detalles o para gestionar la cita, haga clic en el siguiente botón:</p>
+            <a href="https://daurinbarbershop.netlify.app" class="button" target="_blank">Ver Detalles y Responder</a>
+        </div>
+        <div class="footer">
+            <p>Gracias por su atención y colaboración.</p>
+            <p>Si tiene alguna pregunta, no dude en contactarnos:</p>
+            <p>Email: dauringonzales7@gmail.com</p>
+            <p>Teléfono: 809-918-7905</p>
+        </div>
+    </div>
+</body>
+</html>

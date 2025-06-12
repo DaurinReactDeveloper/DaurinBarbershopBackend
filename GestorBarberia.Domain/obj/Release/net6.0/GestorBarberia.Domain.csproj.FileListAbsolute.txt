@@ -1,0 +1,12 @@
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Release\net6.0\GestorBarberia.Domain.deps.json
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Release\net6.0\GestorBarberia.Domain.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\bin\Release\net6.0\GestorBarberia.Domain.pdb
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Release\net6.0\GestorBarberia.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Release\net6.0\GestorBarberia.Domain.AssemblyInfoInputs.cache
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Release\net6.0\GestorBarberia.Domain.AssemblyInfo.cs
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Release\net6.0\GestorBarberia.Domain.csproj.CoreCompileInputs.cache
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Release\net6.0\GestorBarberia.Domain.sourcelink.json
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Release\net6.0\GestorBarberia.Domain.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Release\net6.0\refint\GestorBarberia.Domain.dll
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Release\net6.0\GestorBarberia.Domain.pdb
+D:\Proyectos\GestorBarberia\GestorBarberia\GestorBarberia.Domain\obj\Release\net6.0\ref\GestorBarberia.Domain.dll

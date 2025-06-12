@@ -1,0 +1,859 @@
+[
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.AdministradorController",
+    "Method": "Delete",
+    "RelativePath": "api/Administrador/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.AdminDto.AdminRemoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.AdministradorController",
+    "Method": "GetAdministradorApp",
+    "RelativePath": "api/Administrador/GetAdministradorApp/{name}/{password}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.AdministradorController",
+    "Method": "GetAdministradorBarberia",
+    "RelativePath": "api/Administrador/GetAdministradorBarberia/{name}/{password}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.AdministradorController",
+    "Method": "GetAdministradorById",
+    "RelativePath": "api/Administrador/GetAdministradorById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.AdministradorController",
+    "Method": "GetAdministradores",
+    "RelativePath": "api/Administrador/GetAdministradores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.AdministradorController",
+    "Method": "Post",
+    "RelativePath": "api/Administrador/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.AdminDto.AdminAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.AdministradorController",
+    "Method": "Put",
+    "RelativePath": "api/Administrador/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.AdminDto.AdminUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberiaController",
+    "Method": "Delete",
+    "RelativePath": "api/Barberia/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.BarberiaDto.BarberiaRemoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberiaController",
+    "Method": "GetBarberias",
+    "RelativePath": "api/Barberia/GetBarberias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberiaController",
+    "Method": "Post",
+    "RelativePath": "api/Barberia/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.BarberiaDto.BarberiaAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberiaController",
+    "Method": "Put",
+    "RelativePath": "api/Barberia/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.BarberiaDto.BarberiaUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberoController",
+    "Method": "BarberoGetbyid",
+    "RelativePath": "api/Barbero/BarberoById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberoController",
+    "Method": "BarberosByBarberiaId",
+    "RelativePath": "api/Barbero/BarberosByBarberiaId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberoController",
+    "Method": "BarberosByClienteBarberiaId",
+    "RelativePath": "api/Barbero/BarberosByClienteBarberiaId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberoController",
+    "Method": "Delete",
+    "RelativePath": "api/Barbero/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.BarberoDto.BarberoRemoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberoController",
+    "Method": "DeleteByAdmin",
+    "RelativePath": "api/Barbero/DeleteByAdmin/{barberoId}/{adminId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barberoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberoController",
+    "Method": "GetBarbero",
+    "RelativePath": "api/Barbero/GetBarbero/{name}/{password}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberoController",
+    "Method": "GetBarberos",
+    "RelativePath": "api/Barbero/GetBarberos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberoController",
+    "Method": "Post",
+    "RelativePath": "api/Barbero/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.BarberoDto.BarberoAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.BarberoController",
+    "Method": "Put",
+    "RelativePath": "api/Barbero/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.BarberoDto.BarberoUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.CitaController",
+    "Method": "Delete",
+    "RelativePath": "api/Cita/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.CitaDto.CitaRemoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.CitaController",
+    "Method": "GetCitasByBarbero",
+    "RelativePath": "api/Cita/GetCitasByBarbero/{barberoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barberoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.CitaController",
+    "Method": "GetCitasByCliente",
+    "RelativePath": "api/Cita/GetCitasByCliente/{clienteId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.CitaController",
+    "Method": "GetCitasById",
+    "RelativePath": "api/Cita/GetCitasById/{clienteId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.CitaController",
+    "Method": "Post",
+    "RelativePath": "api/Cita/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.CitaDto.CitaAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.CitaController",
+    "Method": "Put",
+    "RelativePath": "api/Cita/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.CitaDto.CitaUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.CitaController",
+    "Method": "PutEstado",
+    "RelativePath": "api/Cita/UpdateEstado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.CitaDto.CitaUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ClienteController",
+    "Method": "ClienteByBarberiaId",
+    "RelativePath": "api/Cliente/ClienteByBarberiaId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ClienteController",
+    "Method": "ClienteById",
+    "RelativePath": "api/Cliente/ClienteById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ClienteController",
+    "Method": "Delete",
+    "RelativePath": "api/Cliente/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.ClienteDto.ClienteRemoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ClienteController",
+    "Method": "DeleteByAdmin",
+    "RelativePath": "api/Cliente/DeleteByAdmin/{clienteId}/{adminId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ClienteController",
+    "Method": "GetCliente",
+    "RelativePath": "api/Cliente/GetCliente/{name}/{password}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ClienteController",
+    "Method": "GetClientes",
+    "RelativePath": "api/Cliente/GetClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ClienteController",
+    "Method": "Post",
+    "RelativePath": "api/Cliente/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.ClienteDto.ClienteAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ClienteController",
+    "Method": "Put",
+    "RelativePath": "api/Cliente/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.ClienteDto.ClienteUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ComentarioController",
+    "Method": "Delete",
+    "RelativePath": "api/Comentario/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comentarioRemoveDto",
+        "Type": "GestorBarberia.Application.Dtos.ComentarioDto.ComentarioRemoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ComentarioController",
+    "Method": "GetComentarios",
+    "RelativePath": "api/Comentario/GetComentarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ComentarioController",
+    "Method": "GetComentariosBarbero",
+    "RelativePath": "api/Comentario/GetComentariosBarbero/{BarberoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BarberoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ComentarioController",
+    "Method": "GetComentariosCliente",
+    "RelativePath": "api/Comentario/GetComentariosCliente/{ClienteId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClienteId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ComentarioController",
+    "Method": "Post",
+    "RelativePath": "api/Comentario/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comentarioaddDto",
+        "Type": "GestorBarberia.Application.Dtos.ComentarioDto.ComentarioaddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ComentarioController",
+    "Method": "Put",
+    "RelativePath": "api/Comentario/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comentarioUpdateDto",
+        "Type": "GestorBarberia.Application.Dtos.ComentarioDto.ComentarioUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.EstilosdecorteController",
+    "Method": "Remove",
+    "RelativePath": "api/Estilosdecorte/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.EstilodecorteDto.EstilosdecorteRemoveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.EstilosdecorteController",
+    "Method": "DeleteByAdmin",
+    "RelativePath": "api/Estilosdecorte/DeleteByAdmin/{estilioId}/{adminId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estilioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.EstilosdecorteController",
+    "Method": "Get",
+    "RelativePath": "api/Estilosdecorte/Estilos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.EstilosdecorteController",
+    "Method": "EstilosByBarberiaId",
+    "RelativePath": "api/Estilosdecorte/EstilosByBarberiaId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.EstilosdecorteController",
+    "Method": "EstilosByClienteBarberiaId",
+    "RelativePath": "api/Estilosdecorte/EstilosByClienteBarberiaId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.EstilosdecorteController",
+    "Method": "Get",
+    "RelativePath": "api/Estilosdecorte/GetEstilos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.EstilosdecorteController",
+    "Method": "Post",
+    "RelativePath": "api/Estilosdecorte/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.EstilodecorteDto.EstilosdecorteAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.EstilosdecorteController",
+    "Method": "Put",
+    "RelativePath": "api/Estilosdecorte/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelDto",
+        "Type": "GestorBarberia.Application.Dtos.EstilodecorteDto.EstilosdecorteUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ReportesController",
+    "Method": "GetIngresos",
+    "RelativePath": "api/Reportes/GetIngresos/{barberiaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barberiaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ReportesController",
+    "Method": "GetReportes",
+    "RelativePath": "api/Reportes/GetReportes/{barberiaId}/{fechaInicio}/{fechaFin}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barberiaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fechaInicio",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ReportesController",
+    "Method": "GetTotalBarberos",
+    "RelativePath": "api/Reportes/GetTotalBarberos/{barberiaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barberiaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorBarberia.Api.Controllers.ReportesController",
+    "Method": "GetTotalClientes",
+    "RelativePath": "api/Reportes/GetTotalClientes/{barberiaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barberiaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
