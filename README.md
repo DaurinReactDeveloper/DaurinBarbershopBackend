@@ -16,7 +16,6 @@
     <li>🛠 Interfaz de administración eficiente para facilitar la supervisión y control de las operaciones del negocio.</li>
     <li>💾 Uso de <strong>MySQL</strong> para la gestión de datos, garantizando la persistencia y acceso rápido a la base de datos.</li>
     <li>🧰 Implementación de patrones de diseño como Repositorio y Unidad de Trabajo para una mejor organización y escalabilidad del sistema.</li>
-    <li>☁️ Integración con <strong>Firebase</strong> para almacenar imágenes y otros datos, optimizando el manejo de archivos multimedia y proporcionando un almacenamiento flexible y escalable.</li>
     <li>📧 <strong>Notificaciones por correo electrónico</strong> para alertar a los usuarios sobre las citas programadas, cambios en los servicios y actualizaciones importantes en la barbería.</li>
 </ul>
 
